@@ -26,7 +26,7 @@ const Login = () => {
         <div className='form-group'>
           <label htmlFor='password'>Password</label>
           <input
-            type='text'
+            type='password'
             name='password'
             value={password}
             onChange={onChange}
